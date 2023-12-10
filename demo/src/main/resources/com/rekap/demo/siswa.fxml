@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rekap.demo.Siswa">
+   <children>
+      <AnchorPane layoutX="17.0" layoutY="17.0" prefHeight="566.0" prefWidth="764.0">
+         <children>
+            <TableView layoutX="5.0" layoutY="83.0" prefHeight="110.0" prefWidth="754.0" AnchorPane.bottomAnchor="373.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="83.0">
+               <columns>
+                  <TableColumn fx:id="NIS" prefWidth="60.0" text="NIS" />
+                  <TableColumn fx:id="Nama" prefWidth="130.0" text="Nama" />
+                  <TableColumn fx:id="bindonesia" prefWidth="130.0" text="Bahasa Indonesia" />
+                  <TableColumn fx:id="binggris" prefWidth="124.0" text="Bahasa Inggris" />
+                  <TableColumn fx:id="ipa" prefWidth="181.0" text="Ilmu Pengetahuan Alam" />
+                  <TableColumn fx:id="mtk" prefWidth="128.0" text="Matematika" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
